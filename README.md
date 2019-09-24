@@ -1,2 +1,12 @@
 # datacleaning-dataset-tcc
-Projeto criado para fazer a limpeza dos dados do dataset usado para alimentar o modelo de predição do Machine Learning usado para a classificação de conteúdo
+
+## Data cleaning project. 
+
+Dentre as funcionalidades do projeto: 
+ - Remove stopwords
+ - Remove punctuation
+ - Remove numeration
+ - Remove duplicates inline
+ - Apply tokenization
+
+O ``run`` deste projeto resulta em arquivo __CSV__ (dataset-processed.csv) contendo todo o conteúdo do dataset de entrada (dataset-gross.csv - conjunto de dados brutos) passado o processamento dos dados, a limpeza dos dados. 
